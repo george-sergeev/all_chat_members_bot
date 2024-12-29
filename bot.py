@@ -9,7 +9,7 @@ async def all_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     """Обработчик команды @all"""
     chat = await context.bot.get_chat(update.effective_chat.id)
     members = await context.bot.get_chat_administrators(chat.id)
-    members_text = "❗❗Срочная информация❗❗\n\n"
+    members_text = "❗Срочная информация❗\n\n"
     
     for member in members:
         user = member.user
