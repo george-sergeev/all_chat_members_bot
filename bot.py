@@ -20,7 +20,7 @@ async def all_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     # Токен бота
-    TOKEN = "7886662496:AAHGpgSRAHGEkYxKOWugROcs7sGq43emBxs"
+    TOKEN = "NONE"
     
 
     # Создаем приложение
