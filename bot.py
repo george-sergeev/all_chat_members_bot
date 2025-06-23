@@ -1,6 +1,4 @@
-Вот полный рабочий код Telegram-бота с командой `/all`, который удаляет исходное сообщение пользователя и отправляет упоминания всех админов (кроме ботов):
 
-```python
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import logging
