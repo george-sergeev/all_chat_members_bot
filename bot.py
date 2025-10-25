@@ -36,7 +36,7 @@ async def all_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == "__main__":
     # Токен бота
-    TOKEN = "none"
+    TOKEN = "7886662496:AAGseoxWd-e43NESe6_j8fZmlENWBPY6fxM"
 
     # Создание приложения
     application = ApplicationBuilder().token(TOKEN).build()
@@ -46,5 +46,6 @@ if __name__ == "__main__":
 
     # Запуск бота
     application.run_polling()
+
 
 
